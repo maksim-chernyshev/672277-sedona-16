@@ -3,132 +3,134 @@
   <head>
     <meta charset="utf-8">
     <title>Седона: фото и видео</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+    <div class="container">
+      <header class="page-header">
+        <a class="page-header__logo">
+          <img class="page-header__logo-image" src="http://placehold.it/100x80">
+        </a>
+        <nav class="page-header__nav main-nav">
+          <button class="main-nav__toggle" type="button">Открыть меню</button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="index.html">Главная</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" >Фото и видео</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="form.html">Форма отзыва</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">HTML Academy</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
 
-    <header class="page-header">
-      <a class="page-header__logo">
-        <img class="page-header__logo-image" src="http://placehold.it/100x80">
-      </a>
-      <nav class="page-header__nav main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list">
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="index.html">Главная</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" >Фото и видео</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="form.html">Форма отзыва</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="#">HTML Academy</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+      <main class="page-main">
+          <div class="page-main__hero">
+              <h1 class="page-main__hero-title visually-hidden">Седона: Галерея</h1>
+              <svg class="page-main__hero-image"></svg>
+          </div>
+        <section class="multimedia">
+          <div class="multimedia__wrapper">
 
-    <main class="page-main">
-        <div class="page-main__hero">
-            <h1 class="page-main__hero--title visually-hidden">Седона: Галерея</h1>
-            <svg class="page-main__hero--image"></svg>
-        </div>
-      <section class="multimedia">
-        <div class="multimedia__wrapper">
+            <h2 class="multimedia__title">Фото и видео</h2>
+            <p class="multimedia__description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
 
-          <h2 class="multimedia__title">Фото и видео</h2>
-          <p class="multimedia__description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
-
-          <ul class="multimedia__list">
-            <li class="multimedia__item">
-              <figure>
-                <img class="multimedia__image" src="http://placehold.it/280x280">
-                <figcaption>
-                  <h3 class="multimedia__title">Неродные просторы</h3>
-                  <p class="multimedia__author">Автор фото: Борис</p>
-                  <div class="multimedia__likes likes">
-                    <svg class="likes__logo" width="23" height="20"></svg>
-                    <p class="multimedia__likes">1350</p>
-                  </div>
-                </figcaption>
-              </figure>
-            </li>
-
-            <li class="multimedia__item">
-              <figure>
-                <img class="multimedia__image" src="http://placehold.it/280x280">
-                <figcaption>
-                  <h3 class="multimedia__title">Местная растительность</h3>
-                  <p class="multimedia__author">Автор фото: Сергей</p>
-                  <div class="multimedia__likes likes">
-                    <svg class="likes__logo" width="23" height="20"></svg>
-                    <p class="likes__quantity">143</p>
-                  </div>
-                </figcaption>
-              </figure>
-            </li>
-
-            <li class="multimedia__item">
-              <figure>
-                <img class="multimedia__image" src="http://placehold.it/280x280">
-                <figcaption>
-                  <h3 class="multimedia__title">Дорога на север</h3>
-                  <p class="multimedia__author">Автор фото: Петр</p>
-                  <div class="multimedia__likes likes">
-                    <svg class="likes__logo" width="23" height="20"></svg>
-                    <p class="multimedia__likes">96</p>
-                  </div>
-                </figcaption>
-              </figure>
-            </li>
-
-            <li class="multimedia__item">
+            <ul class="multimedia__list">
+              <li class="multimedia__item">
                 <figure>
                   <img class="multimedia__image" src="http://placehold.it/280x280">
                   <figcaption>
-                    <h3 class="multimedia__title">Мост дьявола</h3>
-                    <p class="multimedia__author">Автор фото: Антон</p>
+                    <h3 class="multimedia__title">Неродные просторы</h3>
+                    <p class="multimedia__author">Автор фото: Борис</p>
                     <div class="multimedia__likes likes">
                       <svg class="likes__logo" width="23" height="20"></svg>
-                      <p class="multimedia__likes">254</p>
+                      <p class="multimedia__likes">1350</p>
                     </div>
                   </figcaption>
                 </figure>
               </li>
-            </ul>
-              <!-- Все еще сомневаетесь?
 
-              Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз! -->
-        </div>
-      </section>
-    </main>
+              <li class="multimedia__item">
+                <figure>
+                  <img class="multimedia__image" src="http://placehold.it/280x280">
+                  <figcaption>
+                    <h3 class="multimedia__title">Местная растительность</h3>
+                    <p class="multimedia__author">Автор фото: Сергей</p>
+                    <div class="multimedia__likes likes">
+                      <svg class="likes__logo" width="23" height="20"></svg>
+                      <p class="likes__quantity">143</p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </li>
 
-    <footer class="page-footer">
-        <div class="page-footer__wrapper">
-          <p class="page-footer__hashtag hashtag">#VisitSedona</p>
-          <div class="page-footer__social social">
-            <ul class="social__list">
-              <li class="social__item">
-                <a class="social__link social__link--twitter" a href="#">Twitter</a>
+              <li class="multimedia__item">
+                <figure>
+                  <img class="multimedia__image" src="http://placehold.it/280x280">
+                  <figcaption>
+                    <h3 class="multimedia__title">Дорога на север</h3>
+                    <p class="multimedia__author">Автор фото: Петр</p>
+                    <div class="multimedia__likes likes">
+                      <svg class="likes__logo" width="23" height="20"></svg>
+                      <p class="multimedia__likes">96</p>
+                    </div>
+                  </figcaption>
+                </figure>
               </li>
-              <li class="social__item">
-                <a class="social__link social__link--facebook" a href="#">Facebook</a>
-              </li>
-              <li class="social__item">
-                <a class="social__link social__link--youtube" a href="#">YouTube</a>
-              </li>
+
+              <li class="multimedia__item">
+                  <figure>
+                    <img class="multimedia__image" src="http://placehold.it/280x280">
+                    <figcaption>
+                      <h3 class="multimedia__title">Мост дьявола</h3>
+                      <p class="multimedia__author">Автор фото: Антон</p>
+                      <div class="multimedia__likes likes">
+                        <svg class="likes__logo" width="23" height="20"></svg>
+                        <p class="multimedia__likes">254</p>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+                <!-- Все еще сомневаетесь?
+
+                Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз! -->
           </div>
+        </section>
+      </main>
 
-          <div class="page-footer__copyright copyright">
-            <p class="copyright__text">Разработано</p>
-            <a class="copyright__link">
-              <img class="copyright__logo" src="http://placehold.it/26x34">
-            </a>
+      <footer class="page-footer">
+          <div class="page-footer__wrapper">
+            <p class="page-footer__hashtag hashtag">#VisitSedona</p>
+            <div class="page-footer__social social">
+              <ul class="social__list">
+                <li class="social__item">
+                  <a class="social__link social__link--twitter" a href="#">Twitter</a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link--facebook" a href="#">Facebook</a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link--youtube" a href="#">YouTube</a>
+                </li>
+            </div>
+
+            <div class="page-footer__copyright copyright">
+              <p class="copyright__text">Разработано</p>
+              <a class="copyright__link">
+                <img class="copyright__logo" src="http://placehold.it/26x34">
+              </a>
+            </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+    </div>
   </body>
-  </html>
+</html>
