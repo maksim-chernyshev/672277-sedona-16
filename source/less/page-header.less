@@ -1,7 +1,24 @@
 .page-header {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+
   background-color: @main-color;
 
   text-align: center;
+}
+
+.page-header__logo {
+  height: 56px;
+
+  background-color: #ffffff;
+
+  margin-bottom: 0;
+
+  order: 5;
+
+  z-index: 2;
 }
 
 .main-nav__list {
@@ -31,17 +48,49 @@
 }
 
 .main-nav__link {
+  display: block;
+
+  width: 100%;
+
   color: #ffffff;
 
   text-decoration: none;
 
-  padding: 8px 92px;
-
     &:hover {
-    background-color: #669ec0;
+      background-color: #669ec0;
   }
 
     &:active {
-    background-color: #5496bd;
-    color: #94b9d2;}
+      background-color: #5496bd;
+      color: #94b9d2;}
+}
+
+.main-nav__toggle {
+  position: absolute;
+  top: 176px;
+  right: 0;
+
+  border: none;
+
+  background-color: transparent;
+
+  fill: @main-color;
+
+  cursor: pointer;
+
+  z-index: 3;
+}
+
+.main-nav__close {
+  position: absolute;
+  right: 0;
+  top: 8px;
+
+  border: none;
+
+  background-color: transparent;
+
+  fill: #ffffff;
+
+  cursor: pointer;
 }
