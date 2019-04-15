@@ -19,6 +19,9 @@
   height: 48px;
 
   background-color: @main-color;
+}
+
+.social__icon {
   fill: #ffffff;
 }
 
@@ -31,11 +34,14 @@
   height: 100%;
 
     &:hover {
-    background-color: #669ec0;
+      background-color: #669ec0;
     }
 
     &:active {
-    fill: #88b6d1;
-    background-color: #5496bd;
+      background-color: #5496bd;
     }
+}
+
+.social__link:active .social__icon {
+  fill: #88b6d1;
 }
